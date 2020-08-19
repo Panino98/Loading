@@ -64,8 +64,8 @@ span {
 
 
 .loader {
-    border: 6px solid #f3f3f3; /* Light grey */
-    border-top: 6px solid #3498db; /* Blue */
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid green;
     border-radius: 50%;
     width: 30px;
     height: 30px;
