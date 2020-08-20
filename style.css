@@ -34,7 +34,7 @@ span {
 }
 
 .box {
-    height: 50vh;
+    height: 45vh;
 }
 
 .credentials{
@@ -55,13 +55,17 @@ p {
 .barra-caricamento {
     width: 80vw;
     height: 1.8vw;
-    border: 0.15vw solid white;
+    border: 0.15vw solid grey;
     margin-top: 3vh;
     margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-self: center;
     border-radius: 5vw;
+    background: repeating-linear-gradient(to right, #7FFFD4 0%, lightgreen 70%, green 100%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    animation: bar-loading 10s linear infinite;
 }
 
 
@@ -91,4 +95,11 @@ p {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+@keyframes bar-loading {
+    0% { background-size: 0%; }
+    80% { background-size: 100%; }
+    90% { background-size: 100%; }
+    100% { background-size: 0%; }
 }
