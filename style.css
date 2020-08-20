@@ -22,7 +22,7 @@ span,
 
 span {
     text-transform: bold;
-    font-size: 40px;
+    font-size: 2.8rem;
     animation: loading 4s infinite;
 }
 
@@ -31,8 +31,6 @@ span {
     display:flex;
     justify-content: center;
     align-items: flex-end;
-    height: 50%;
-    width: 100%;
 }
 
 .box {
@@ -44,18 +42,22 @@ span {
     align-items: center;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 .oppa {
     animation: credits 5s infinite;
-    font-size: 30px;
-    margin-left: 10px;
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
 }
 
 .barra-caricamento {
-    width: 400px;
-    height: 20px;
+    width: 25rem;
+    height: 0.8rem;
     border: 2px solid white;
-    margin-top: 12px;
-    margin-bottom: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -67,11 +69,11 @@ span {
     border: 3px solid #f3f3f3;
     border-top: 3px solid green;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     animation: spin 2s linear infinite;
-    margin-left: 10px;
-    margin-bottom: 5px;
+    margin-left: 0.6rem;
+    margin-bottom: 0.4rem;
   }
   
 @keyframes spin {
@@ -81,15 +83,15 @@ span {
 
 @keyframes loading {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0vh);
     }
 
     50% {
-        transform: translateY(-18px);
+        transform: translateY(-2.8vh);
     }
 
     100% {
-        transform: translateY(0px);
+        transform: translateY(0vh);
     }
 }
 
